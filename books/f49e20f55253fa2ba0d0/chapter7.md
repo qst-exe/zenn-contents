@@ -80,6 +80,29 @@ $ php artisan make:seeder TodoTableSeeder
 
 [TodoTableSeeder.php](https://raw.githubusercontent.com/qst-exe/c2-laravel-todo/76a7233d782999004bcafea2ccf87124fed336c4/database/seeds/TodoTableSeeder.php) の中身
 
+`TodoTableSeeder.php` の`run` が実行されるように `DatabaseSeeder.php` の設定
+
+```php:DatabaseSeeder.php
+<?php
+use Illuminate\Database\Seeder;
+
+class DatabaseSeeder extends Seeder
+{
+    /**
+     * Seed the application's database.
+     *
+     * @return void
+     */
+    public function run()
+    {
+         // TODO: UserSeederをTodoTableSeederに変更する 
+         // $this->call(UserSeeder::class);
+         $this->call(TodoTableSeeder::class);
+    }
+}
+
+```
+
 seederの実行
 ```
 $ php artisan db:seed
