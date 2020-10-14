@@ -53,6 +53,8 @@ http://localhost:8000/
 
 [GitHubでのリポジトリ作成](https://youtu.be/jp_l-arRaz8)
 
+GitにPushできないときには [こちらの操作](https://wak-tech.com/archives/933) をしたあとに `git push -u origin main` を試してください
+
 ## テーブルの作成
 
 `.env` ファイルの12行目付近にいつもの情報を記載してください。
