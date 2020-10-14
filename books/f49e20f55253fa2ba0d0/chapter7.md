@@ -179,6 +179,8 @@ Todo一覧ページのViewを記述
 
 [resources/views/todo/index.blade.php](https://raw.githubusercontent.com/qst-exe/c2-laravel-todo/99f74d4c268371aac47d968b4cca3b170117617d/resources/views/todo/index.blade.php)
 
+http://localhost:8000/todo にTodo一覧が表示されます。
+
 ## Todo単体ページの作成
 
 ![Todo単体ページの作成](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/36927/ce867ccc-a868-3b11-7840-9b2d53ff790f.jpeg "Todo単体ページの作成")
