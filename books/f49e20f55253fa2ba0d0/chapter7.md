@@ -81,7 +81,7 @@ $ git push -u origin main
 ## テーブルの作成
 
 ```
-$ cp .\.env.example .\.env
+$ cp .env.example .env
 ```
 
 `.env` ファイルの12行目付近にいつもの情報を記載してください。
@@ -161,11 +161,21 @@ $ php artisan make:controller TodoController --resource
 
 [リソースコントローラ](https://readouble.com/laravel/7.x/ja/controllers.html#resource-controllers)
 
+---- 
+
+2020年10月14日分
+
 ### ルーティングとController、Viewの紐付け
 
-1. ルーティングを設定
-1. メソッドにデータ取得とViewを紐付ける処理を追加
-1. Todo一覧ページのViewを記述
+ルーティングを設定
+
+[routes/web.php](https://raw.githubusercontent.com/qst-exe/c2-laravel-todo/feature/index/routes/web.php)
+
+メソッドにデータ取得とViewを紐付ける処理を追加
+
+[app/Http/Controllers/TodoController.php](https://raw.githubusercontent.com/qst-exe/c2-laravel-todo/feature/index/app/Http/Controllers/TodoController.php)
+
+Todo一覧ページのViewを記述
 
 [resources/views/todo/index.blade.php](https://raw.githubusercontent.com/qst-exe/c2-laravel-todo/99f74d4c268371aac47d968b4cca3b170117617d/resources/views/todo/index.blade.php)
 
