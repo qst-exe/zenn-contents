@@ -34,6 +34,9 @@ $ cd C:\xampp\htdocs\
 $ composer create-project "laravel/laravel=7.*" todo
 ```
 
+
+`htdocs` に `todo` フォルダができているので、 `VSCode` の `フォルダを開く` から `todo` を開いてください。
+
 [各ディレクトリの構成](https://readouble.com/laravel/7.x/ja/structure.html)
 
 Laravelサーバの起動
