@@ -55,7 +55,13 @@ http://localhost:8000/
 
 ## テーブルの作成
 
-`.env` ファイルにいつもの情報を記載してください。
+`.env` ファイルの12行目付近にいつもの情報を記載してください。
+
+```
+DB_DATABASE=todo
+DB_USERNAME=root
+DB_PASSWORD=password
+```
 
 テーブルの作成
 
