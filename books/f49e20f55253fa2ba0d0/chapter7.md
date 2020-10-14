@@ -53,7 +53,27 @@ http://localhost:8000/
 
 [GitHubでのリポジトリ作成](https://youtu.be/jp_l-arRaz8)
 
-GitにPushできないときには [こちらの操作](https://wak-tech.com/archives/933) をしたあとに `git push -u origin main` を試してください
+### GitHubの内容が更新されないとき
+
+#### GitHubの内容が「README.md」だけになっている
+
+```
+$ git add .
+```
+
+を実行した後に以下の動画の続きを試してみてください
+
+[https://youtu.be/jp_l-arRaz8?t=36](https://youtu.be/jp_l-arRaz8?t=36)
+
+#### ターミナルに The requested URL returned error: 403 のエラーが出ている 
+
+GitにPushできないときには [こちらの操作](https://wak-tech.com/archives/933) をしたあとに 
+
+```
+$ git push -u origin main
+```
+ 
+ を試してください
 
 ## テーブルの作成
 
