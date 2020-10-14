@@ -80,6 +80,10 @@ $ git push -u origin main
 
 ## テーブルの作成
 
+```
+cp .\.env.example .\.env
+```
+
 `.env` ファイルの12行目付近にいつもの情報を記載してください。
 
 ```
