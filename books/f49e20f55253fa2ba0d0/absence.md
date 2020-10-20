@@ -1,12 +1,10 @@
 ---
-title: "PHPフレームワークを使ったアプリ開発 | Laravel入門"
+title: "欠席してた人へ | Laravel入門"
 ---
 
-# Chapter7
+# 欠席してた人へ
 
-PHPフレームワーク「Laravel」を使ってアプリ開発を行います。
-
-[Webアプリケーションフレームワークについて](https://docs.google.com/presentation/d/1onUP5XoR9SAaq9yOdswa84rxFh0LPO35g_7UhuTlv6E/edit?usp=sharing)
+欠席してた人は以下の操作を順に行ってください
 
 ## Laravelのインストール
 
@@ -158,60 +156,3 @@ Todoコントローラーの作成
 ```
 $ php artisan make:controller TodoController --resource
 ```
-
-### 各リソースコントローラのアクション
-
-[リソースコントローラ](https://readouble.com/laravel/7.x/ja/controllers.html#resource-controllers)
-
----- 
-
-2020年10月14日分
-
-### ルーティングとController、Viewの紐付け
-
-ルーティングを設定
-
-[routes/web.php](https://raw.githubusercontent.com/qst-exe/c2-laravel-todo/feature/index/routes/web.php)
-
-メソッドにデータ取得とViewを紐付ける処理を追加
-
-[app/Http/Controllers/TodoController.php](https://raw.githubusercontent.com/qst-exe/c2-laravel-todo/feature/index/app/Http/Controllers/TodoController.php)
-
-Todo一覧ページのViewを記述
-
-[resources/views/todo/index.blade.php](https://raw.githubusercontent.com/qst-exe/c2-laravel-todo/99f74d4c268371aac47d968b4cca3b170117617d/resources/views/todo/index.blade.php)
-
-http://localhost:8000/todo にTodo一覧が表示されます。
-
-## Todo単体ページの作成
-
-![Todo単体ページの作成](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/36927/ce867ccc-a868-3b11-7840-9b2d53ff790f.jpeg "Todo単体ページの作成")
-
-### ルーティングとController、Viewの紐付け
-
-ルーティングを設定
-
-[routes/web.php](https://raw.githubusercontent.com/qst-exe/c2-php-todo/feature/show/routes/web.php)
-
-メソッドにデータ取得とViewを紐付ける処理を追加
-
-[app/Http/Controllers/TodoController.php](https://raw.githubusercontent.com/qst-exe/c2-php-todo/feature/show/app/Http/Controllers/TodoController.php)
-
-[resources/views/todo/index.blade.php](https://raw.githubusercontent.com/qst-exe/c2-php-todo/feature/show/resources/views/todo/index.blade.php)
-
-Todo単体ページのViewを記述
-
-[resources/views/todo/show.blade.php](https://raw.githubusercontent.com/qst-exe/c2-laravel-todo/4bf89ada0e4ac64212c83be0af75a6ca2a672d0f/resources/views/todo/show.blade.php)
-
-## ページネーションの追加
-
-![ページネーションの追加](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/36927/64fa6560-2a36-55d5-27b2-17c8a7192869.jpeg "ページネーションの追加")
-
-
-ページネーションの処理追加
-
-[app/Http/Controllers/TodoController.php](https://raw.githubusercontent.com/qst-exe/c2-php-todo/main/app/Http/Controllers/TodoController.php)
-
-ページネーションのView追加
-
-[resources/views/todo/index.blade.php](https://raw.githubusercontent.com/qst-exe/c2-php-todo/main/resources/views/todo/index.blade.php)
