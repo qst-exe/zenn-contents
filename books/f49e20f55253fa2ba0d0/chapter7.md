@@ -1,5 +1,5 @@
 ---
-title: "PHPフレームワークを使ったアプリ開発"
+title: "PHPフレームワークを使ったアプリ開発 | Laravel入門"
 ---
 
 # Chapter7
@@ -154,7 +154,7 @@ $ php artisan make:model Todo
 
 Todoコントローラーの作成
 ```
-$ php artisan make:controller TodoController --resource 
+$ php artisan make:controller TodoController --resource
 ```
 
 ### 各リソースコントローラのアクション
@@ -187,9 +187,17 @@ http://localhost:8000/todo にTodo一覧が表示されます。
 
 ### ルーティングとController、Viewの紐付け
 
-1. ルーティングを設定
-1. メソッドにデータ取得とViewを紐付ける処理を追加
-1. Todo単体ページのViewを記述
+ルーティングを設定
+
+[routes/web.php](https://raw.githubusercontent.com/qst-exe/c2-php-todo/feature/show/routes/web.php)
+
+メソッドにデータ取得とViewを紐付ける処理を追加
+
+[app/Http/Controllers/TodoController.php](https://raw.githubusercontent.com/qst-exe/c2-php-todo/feature/show/app/Http/Controllers/TodoController.php)
+
+[resources/views/todo/index.blade.php](https://raw.githubusercontent.com/qst-exe/c2-php-todo/feature/show/resources/views/todo/index.blade.php)
+
+Todo単体ページのViewを記述
 
 [resources/views/todo/show.blade.php](https://raw.githubusercontent.com/qst-exe/c2-laravel-todo/4bf89ada0e4ac64212c83be0af75a6ca2a672d0f/resources/views/todo/show.blade.php)
 
@@ -198,5 +206,10 @@ http://localhost:8000/todo にTodo一覧が表示されます。
 ![ページネーションの追加](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/36927/64fa6560-2a36-55d5-27b2-17c8a7192869.jpeg "ページネーションの追加")
 
 
-1. ページネーションの処理追加
-1. ページネーションのView追加
+ページネーションの処理追加
+
+[app/Http/Controllers/TodoController.php](https://raw.githubusercontent.com/qst-exe/c2-php-todo/main/app/Http/Controllers/TodoController.php)
+
+ページネーションのView追加
+
+[resources/views/todo/index.blade.php](https://raw.githubusercontent.com/qst-exe/c2-php-todo/main/resources/views/todo/index.blade.php)
