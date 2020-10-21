@@ -32,7 +32,7 @@ Vue関連のパッケージをインストールする
 $ npm install && npm run dev
 ```
 
-※ npmでコケるひとはこちらからダウンロードしてください
+※ npmでコケるひとはこちらからLTS版をダウンロードしてください
 
 https://nodejs.org/en/
 
