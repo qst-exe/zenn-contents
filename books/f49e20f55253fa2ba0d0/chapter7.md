@@ -215,3 +215,8 @@ Todo単体ページのViewを記述
 ページネーションのView追加
 
 [resources/views/todo/index.blade.php](https://raw.githubusercontent.com/qst-exe/c2-php-todo/main/resources/views/todo/index.blade.php)
+
+
+## この章終了時点でのコード
+
+https://github.com/qst-exe/c2-php-todo/tree/chapter1

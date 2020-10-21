@@ -174,3 +174,8 @@ MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=c2php.app@gmail.com
 MAIL_FROM_NAME="職業実践2 Laravel Todo App"
 ```
+
+
+## この章終了時点でのコード
+
+https://github.com/qst-exe/c2-php-todo/tree/chapter2
