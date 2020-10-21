@@ -29,7 +29,13 @@ $ php artisan ui vue --auth
 Vue関連のパッケージをインストールする
 
 ```
-$ npm install && npm run dev
+$ npm install
+```
+
+パッケージのビルド
+
+```
+$ npm run dev
 ```
 
 ※ npmでコケるひとはこちらからLTS版をダウンロードしてください
