@@ -32,6 +32,10 @@ Vue関連のパッケージをインストールする
 $ npm install && npm run dev
 ```
 
+※ npmでコケるひとはこちらからダウンロードしてください
+
+https://nodejs.org/en/
+
 ## ルーティングの設定変更
 
 `routes/web.php` のルーティングを書き換えてログイン必須にする
