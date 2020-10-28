@@ -165,8 +165,6 @@ $ php artisan make:controller TodoController --resource
 
 ---- 
 
-2020年10月14日分
-
 ### ルーティングとController、Viewの紐付け
 
 ルーティングを設定
