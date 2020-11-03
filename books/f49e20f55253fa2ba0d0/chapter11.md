@@ -16,5 +16,10 @@ title: "LaravelでのCRUD | Laravel入門"
 | PUT/PATCH| /todo/{todo_id} |update|todo.update | タスク編集の送信 |
 | DELETE | /todo/{todo_id} |destroy|todo.destroy | タスクの削除 |
 
+## 課題
 
-(編集中)
+1. 上記のリソースコントローラを参考に、タスクの編集・削除機能を追加してください。ただし、編集及び削除できるのは自分が作成したタスクのみです。
+2. 現状のタスクの進捗は数字で表現されています。これを文字表記にしてください。
+
+
+
