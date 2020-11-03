@@ -6,6 +6,8 @@ title: "Bladeテンプレートを使ったコーディング | Laravel入門"
 
 Laravelのビューテンプレートエンジン「Blade」を使った効率的なコーディングを習得します。
 
+Bladeの細かい挙動について
+https://readouble.com/laravel/7.x/ja/blade.html
 
 ## Bladeとは
 
