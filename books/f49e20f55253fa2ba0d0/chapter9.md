@@ -50,11 +50,12 @@ seederを修正して、 `user_id` をデフォルトで設置するようにし
 $ php artisan migrate:fresh --seed
 ```
 
-2020年10月28日はここまで
+この時点で以下のアカウントが有効になっています。
 
-## 環境構築
-
-https://youtu.be/dt8xDG-HvaQ
+```
+メールアドレス: hoge+1@test.com
+パスワード: password
+```
 
 ## データ取得 
 
