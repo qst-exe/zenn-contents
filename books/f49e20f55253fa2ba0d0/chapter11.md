@@ -22,7 +22,13 @@ title: "LaravelでのCRUD | Laravel入門"
 ## 課題
 
 1. 上記のリソースコントローラを参考に、タスクの作成・編集・削除機能を追加してください。ただし、編集及び削除できるのは自分が作成したタスクのみです。
-2. 現状のタスクの進捗は数字で表現されています。これを文字表記にしてください。
+    1. タスク作成ページの作業イメージは [こちら](https://github.com/qst-exe/c2-php-todo/issues/4)
+    1. タスク作成送信の作業イメージは [こちら](https://github.com/qst-exe/c2-php-todo/issues/5)
+    1. タスク編集ページの作業イメージは [こちら](https://github.com/qst-exe/c2-php-todo/issues/6)
+    1. タスク編集送信の作業イメージは [こちら](https://github.com/qst-exe/c2-php-todo/issues/7)
+    1. タスク削除の作業イメージは [こちら](https://github.com/qst-exe/c2-php-todo/issues/8)
+1. UI的に使いにくいところ抽出して修正してください    
+1. 現状のタスクの進捗は数字で表現されています。これを文字表記にしてください。
 
 
 
