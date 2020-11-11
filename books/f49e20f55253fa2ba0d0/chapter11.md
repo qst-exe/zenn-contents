@@ -36,5 +36,10 @@ title: "LaravelでのCRUD | Laravel入門"
 1. UI的に使いにくいところ抽出して修正してください    
 1. 現状のタスクの進捗は数字で表現されています。これを文字表記にしてください。
 
+### ヒント
 
+作業の流れは基本的に以下の通りです
 
+1. ルーティング(URL)の設定(routes/web.php)
+1. コントローラに必要な処理を書く(app/Http/Controllers/TodoController.php)
+1. 必要なレスポンス(view)を定義
