@@ -43,3 +43,8 @@ title: "LaravelでのCRUD | Laravel入門"
 1. ルーティング(URL)の設定(routes/web.php)
 1. コントローラに必要な処理を書く(app/Http/Controllers/TodoController.php)
 1. 必要なレスポンス(view)を定義
+
+
+授業終了時点でのコード
+
+https://github.com/qst-exe/c2-php-todo
