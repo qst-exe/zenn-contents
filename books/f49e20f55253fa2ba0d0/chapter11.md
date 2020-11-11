@@ -17,7 +17,13 @@ title: "LaravelでのCRUD | Laravel入門"
 | DELETE | /todo/{todo_id} |destroy|todo.destroy | タスクの削除 |
 
 
-2020年11月4日 ここまで
+動画に沿って環境構築をすると以下のアカウントが有効になっています。
+
+```
+メールアドレス: hoge+1@test.com
+パスワード: password
+```
+
 
 ## 課題
 
