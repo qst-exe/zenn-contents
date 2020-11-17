@@ -29,6 +29,7 @@ title: "LaravelでのCRUD | Laravel入門"
 
 1. 上記のリソースコントローラを参考に、タスクの作成・編集・削除機能を追加してください。ただし、編集及び削除できるのは自分が作成したタスクのみです。
     1. タスク作成ページの作業イメージは [こちら](https://github.com/qst-exe/c2-php-todo/issues/4)
+        - [回答例](https://github.com/qst-exe/c2-php-todo/pull/9)
     1. タスク作成送信の作業イメージは [こちら](https://github.com/qst-exe/c2-php-todo/issues/5)
     1. タスク編集ページの作業イメージは [こちら](https://github.com/qst-exe/c2-php-todo/issues/6)
     1. タスク編集送信の作業イメージは [こちら](https://github.com/qst-exe/c2-php-todo/issues/7)
@@ -43,7 +44,7 @@ title: "LaravelでのCRUD | Laravel入門"
 1. ルーティング(URL)の設定(routes/web.php)
 1. コントローラに必要な処理を書く(app/Http/Controllers/TodoController.php)
 1. 必要なレスポンス(view)を定義
-
+1. UIを整える
 
 授業終了時点でのコード
 
