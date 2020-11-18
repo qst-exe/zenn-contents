@@ -33,6 +33,7 @@ title: "LaravelでのCRUD | Laravel入門"
     1. タスク作成送信の作業イメージは [こちら](https://github.com/qst-exe/c2-php-todo/issues/5)
         - [回答例](https://github.com/qst-exe/c2-php-todo/pull/10)
     1. タスク編集ページの作業イメージは [こちら](https://github.com/qst-exe/c2-php-todo/issues/6)
+        - [回答例](https://github.com/qst-exe/c2-php-todo/pull/11)
     1. タスク編集送信の作業イメージは [こちら](https://github.com/qst-exe/c2-php-todo/issues/7)
     1. タスク削除の作業イメージは [こちら](https://github.com/qst-exe/c2-php-todo/issues/8)
 1. UI的に使いにくいところ抽出して修正してください    
