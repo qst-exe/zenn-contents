@@ -6,6 +6,12 @@ title: "FAQ | Laravel入門"
 
 随時追記していきます。
 
+## MySQLが起動しないとき
+
+https://qiita.com/kyorochan0219/items/01fafab61fc66aef86f8
+
+こちらの操作を試したときには、 [XAMPPのMySQLのPortは正しいかどうか](#XAMPPのMySQLのPortは正しいかどうか) の箇所にあるように `.env` のportも変更するようにしてください
+
 ## MySQLにログインできないとき
 
 以下の項目を順番にチェックしていってください
