@@ -43,7 +43,7 @@ title: "LaravelでのCRUD | Laravel入門"
 1. UI的に使いにくいところ抽出して修正してください    
 
 
-[2020/11/25の最後の実装](https://github.com/qst-exe/c2-php-todo/commit/6ecab35b8fd03f275c6f1f46b822ca0280555009)
+[2020/11/25の最後の実装](https://github.com/qst-exe/c2-php-todo/commit/604571ec277009effce8f2b5df91d64685427d26)
     
 ### ヒント
 
