@@ -45,6 +45,7 @@ title: "LaravelでのCRUD | Laravel入門"
     - タスク単体ページに編集ボタンと削除ボタンを置く
     - 日付を和暦・曜日表示する
     - 削除ボタン押下時に確認のダイアログを出す
+        - [回答例](https://github.com/qst-exe/c2-php-todo/pull/17/files)
 
 
 ### ヒント
