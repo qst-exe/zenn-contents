@@ -42,6 +42,10 @@ title: "LaravelでのCRUD | Laravel入門"
     1. 作業イメージは [こちら](https://github.com/qst-exe/c2-php-todo/issues/13) 
         - [回答例](https://github.com/qst-exe/c2-php-todo/pull/16/files)
 1. UI的に使いにくいところ抽出して修正してください    
+    - タスク単体ページに編集ボタンと削除ボタンを置く
+    - 日付を和暦・曜日表示する
+    - 削除ボタン押下時に確認のダイアログを出す
+        - [回答例](https://github.com/qst-exe/c2-php-todo/pull/17/files)
 
 
 ### ヒント

@@ -43,3 +43,10 @@ $ mysqladmin -u root password
 ### XAMPPのMySQLのPortは正しいかどうか
 
 ![](https://storage.googleapis.com/zenn-user-upload/2l23twykgfose1e10npcas9ro4xi)
+
+
+## Gitのpushに失敗するとき
+
+[[Windows 10] Git BashでGitHubにSSH接続](https://qiita.com/coffee_g9/items/e1b9ab28cfa54f854308) のリンクを参考にssh接続をできるように設定をしてください
+
+https://qiita.com/coffee_g9/items/e1b9ab28cfa54f854308
