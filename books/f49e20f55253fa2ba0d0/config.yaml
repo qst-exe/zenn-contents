@@ -1,10 +1,11 @@
 title: "職業実践2 PHP"
-summary: "職業実践2で使用する教材・プログラムです。特に制限はないので何かあればPRください。"
+summary: "職業実践2の授業で使用する教材・プログラムです。特に制限はないので何かあればPRください。"
 topics: ["php", "laravel"]
 published: true
 price: 0 # 有料の場合200〜5000
 # 本に含めるチャプターを順番に並べましょう
 chapters:
+  - tutorial
   - chapter1
   - chapter2
   - chapter3
