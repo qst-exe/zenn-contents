@@ -237,6 +237,8 @@ echo $result;
 
 ### 課題6
 
+[回答例](https://github.com/qst-exe/career2-php/blob/master/chapter1/task6.php)
+
 1から100までの数をプリントするプログラムを書いてください。ただし3の倍数のときは数の代わりに｢Fizz｣と、5の倍数のときは｢Buzz｣とプリントし、3と5両方の倍数の場合には｢FizzBuzz｣とプリントすること。
 
 ```
