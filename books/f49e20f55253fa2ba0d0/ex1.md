@@ -35,7 +35,7 @@ https://paiza.io/ja/projects/new
 |---|---|
 |年間家賃収入|income|
 |諸経費|expenses|
-|物件価格|price|
+|購入価格|price|
 |購入時の諸経費|purchaseExpenses|
 
 ```
